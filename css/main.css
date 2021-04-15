@@ -17,7 +17,7 @@ body {
     margin: 0
 }
 
-body::before {
+/* body::before {
 	animation: grain 8s steps(10) infinite;
 	background-image: url(/img/noise.png);
 	content: '';
@@ -39,7 +39,7 @@ body::before {
     70% { transform:translate(0%, 15%); }
     80% { transform:translate(3%, 35%); }
     90% { transform:translate(-10%, 10%); }
-  }
+  } */
 
 footer,
 header,
