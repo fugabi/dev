@@ -779,4 +779,34 @@ a {
 	
 }
 
+.impress {
+	padding: 100px 35vw;
+	margin: auto;
+}
 
+.impressum {
+	color: rgb(95, 95, 95);
+	
+	font-variation-settings: 'wght' 374, 'wdth' 67; 
+	font-size:23px; 
+	margin:0px; 
+	padding:0px;
+}
+
+.impressum > a {
+	
+	color: rgb(95, 95, 95);
+	
+}
+
+@media screen and (max-width: 500px) {
+	.impress {
+		padding: 100px 50px;
+		margin: auto;
+	}
+	.impressum {
+		width: 80vw; 
+		margin: auto;
+		font-size: 16px;
+	}
+}
